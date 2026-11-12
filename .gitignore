@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables (Never commit secrets/DB URLs)
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Prisma local SQLite / temp files (if any)
+prisma/*.db
+prisma/*.db-journal
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

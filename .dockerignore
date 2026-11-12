@@ -1,0 +1,22 @@
+# Dependencies (Container will run npm install cleanly)
+node_modules/
+
+# Git & CI/CD files
+.git/
+.github/
+.gitignore
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Environment files (Passed via docker-compose environment instead)
+.env
+.env.*
+
+# Logs & Documentation
+*.log
+README.md
+.vscode/
+.idea/
